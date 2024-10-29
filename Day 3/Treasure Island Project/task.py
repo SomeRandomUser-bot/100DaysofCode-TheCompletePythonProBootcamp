@@ -258,8 +258,76 @@ if answer == "Yes":
             print("Bad day to be a democrat, you stepped into another trap and got yourself on fire, what a shame to have your life wasted in this dungeon but what else did you expect?.")
             print("Game over.")
         elif answer == "Right":
-            print("Thank god you are a fascist, you see an old treasure chest with two locks one on each side, which will you open first? Left or Right? ")
-            answer
+            answer=input("Thank god you are a fascist, you see an old treasure chest with two locks one on each side, which will you open first? Left or Right? ")
+            print('''
+                     ____...------------...____
+               _.-"` /o/__ ____ __ __  __ \o\_`"-._
+             .'     / /                    \ \     '.
+             |=====/o/======================\o\=====|
+             |____/_/________..____..________\_\____|
+             /   _/ \_     <_o#\__/#o_>     _/ \_   \
+             \_________\####/_________/
+              |===\!/========================\!/===|
+              |   |=|          .---.         |=|   |
+              |===|o|=========/     \========|o|===|
+              |   | |         \() ()/        | |   |
+              |===|o|======{'-.) A (.-'}=====|o|===|
+              | __/ \__     '-.\uuu/.-'    __/ \__ |
+              |==== .'.'^'.'.====|
+          jgs |  _\o/   __  {.' __  '.} _   _\o/  _|
+              `""""-""""""""""""""""""""""""""-""""`
+            ''')
+            if answer == "Left":
+                print("You open the lock")
+            elif answer == "Right":
+                print("You open the lock")
+            print("You open the 2nd lock and see what's inside")
+            answer= input("You luck bastard, you found the one piece! the power of friendship! are you happy? Yes or No? ")
+            if answer == "Yes":
+                print("Alright, then that's all you need, thank god we have friendship even if you are here alone like shit at least you have some consort thinking that some day you'll find any joy meeting someone")
+            elif answer == "No":
+                print("Lucky for you there is a great sword inside of the chest! WHAT A LUCKY BASTARD!")
+                print('''
+                           ___
+                          ( ((
+                           ) ))
+  .::.                    / /(
+ 'M .-;-.-.-.-.-.-.-.-.-/| ((::::::::::::::::::::::::::::::::::::::::::::::.._
+(J ( ( ( ( ( ( ( ( ( ( ( |  ))   -====================================-      _.>
+ `P `-;-`-`-`-`-`-`-`-`-\| ((::::::::::::::::::::::::::::::::::::::::::::::''
+  `::'                    \ \(
+                           ) ))
+                          (_((
+                
+                ''')
+                print("And almost forgot, this is a game you can't win you pig so after you take that sword you DIE FOR CANCER, THAT SWORD WAS MADE OF CROTOLAMO")
+                print('''
+        .ed"""" """$$$$be.
+     -"           ^""**$$$e.
+   ."                   '$$$c
+  /                      "4$$b
+ d  3                      $$$$
+ $  *                   .$$$$$$
+.$  ^c           $$$$$e$$$$$$$$.
+d$L  4.         4$$$$$$$$$$$$$$b
+$$$$b ^ceeeee.  4$$ECL.F*$$$$$$$
+$$$$P d$$$$F $ $$$$$$$$$- $$$$$$
+3$$$F "$$$$b   $"$$$$$$$  $$$$*"
+ $$P"  "$$b   .$ $$$$$...e$$
+  *c    ..    $$ 3$$$$$$$$$$eF
+    %ce""    $$$  $$$$$$$$$$*
+     *$e.    *** d$$$$$"L$$
+      $$$      4J$$$$$% $$$
+     $"'$=e....$*$$**$cz$$"
+     $  *=%4.$ L L$ P3$$$F
+     $   "%*ebJLzb$e$$$$$b
+      %..      4$$$$$$$$$$
+       $$$e   z$$$$$$$$$$
+        "*$c  "$$$$$$$P"
+          """*$$$$$$$"
+                ''')
+            else:
+                print("Invalid answer, please use Yes for yes or No for No.")
         else:
             print("Invalid answer, please use Left for left or Right for right.")
     else:
